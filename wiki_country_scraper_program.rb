@@ -19,7 +19,7 @@ required_languages.each_with_index do |country|
 end
 
 ### Need to create a new variable with the county names
-page = mechanize.get('file:///Users/TimRooke/Desktop/Coding/Ruby/activate_scraper/countries_A_C.html')
+page = mechanize.get('./countries.html')
 index = 0
 
 rows_total = page.css('table tr').length
