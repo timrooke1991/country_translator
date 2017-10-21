@@ -6,8 +6,9 @@
 
 #### Run Locally
 
-- Download or clone the [Github repo](https://github.com/timrooke1991/project-0)
+- Download or clone the [Github repo](https://github.com/timrooke1991/country_translator)
 - Navigate to the root of the repo via the command line
+- Run `bundle install`
 - Run `ruby wiki_country_scraper.rb` in the terminal to compile run the ruby program
 - When prompted, enter the languages you require separated by a comma, e.g. German, Spanish, French (English is return by default)
 - Once completed, find the .csv file located in the root of the project directory
